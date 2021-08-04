@@ -7,7 +7,7 @@ If you have a successful login, the info will be displayed that says “Successf
 
 The client is presented with a menu:
 
-Register contestants
+1.Register contestants
 
 Start competing
 
@@ -35,7 +35,7 @@ Exit
 
 If selected to start the competition
 
-The system will choose any number between 1 and 5, for example 2, but the customer will not know it. The customer will be asked who do you think is the chosen person? If the customer chooses 2, "Congratulations you won!" otherwise, the "You failed" message should be removed.
+The system will choose any number between 1 and 5, for example 2, but the customer will not know it. The customer will be asked who is the chosen partcipant? If the customer chooses 2, "Congratulations you won!" otherwise, the "You failed" message should be removed.
 
 If logout is selected, it returns to the login page again
 
