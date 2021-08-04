@@ -18,6 +18,7 @@ public class MenuLoginService extends MenuService {
     public void process() {
         int count = 0;
         for (int i = 0; i < 3; i++) {
+            System.out.println("Please login ");
             System.out.println("Enter username");
             Scanner sc = new Scanner(System.in);
             String username = sc.nextLine();

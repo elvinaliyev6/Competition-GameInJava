@@ -16,10 +16,10 @@ import service.MenuStartService;
  * @author Elvin Aliyev
  */
 public enum Menu {
-    REGISTER(1, "Register Competitors"),
-    START(2, "Start competition"),
-    LOGOUT(3, "log out"),
-    EXIT(4, "exit");
+    REGISTER(1, "Register Contestants"),
+    START(2, "Start competing"),
+    LOGOUT(3, "Logout"),
+    EXIT(4, "Exit");
 
     private int number;
     private String label;

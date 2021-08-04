@@ -8,6 +8,7 @@ package service;
 import bean.Config;
 import bean.Competitor;
 import static bean.Config.competitors;
+import static bean.Config.registeredPeople;
 import java.util.Scanner;
 
 /**
@@ -18,10 +19,10 @@ public class MenuRegisterService extends MenuService {
 
     public Competitor[] register() {
 
-        System.out.println("How many competitors will participate in the competition?");
+        System.out.println("How many people will take part in the competition. ");
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        Config.competitors = new Competitor[n];
+       registeredPeople = sc.nextInt();
+        Config.competitors = new Competitor[registeredPeople];
         String name;
         String surname;
         for (int i = 0; i < competitors.length; i++) {
