@@ -1,7 +1,7 @@
 # Yarisma-Application
 When the app starts, it asks the user to login. The user is asked for a username and password.
 
-If the client enters username: Tural, password: 1907, it enters the system, otherwise it gives an error. If there is an incorrect login 3 times, it displays the message "You banned".
+If the client enters username: Elvin, password: 12345, it enters the system, otherwise it gives an error. If there is an incorrect login 3 times, it displays the message "You banned".
 
 If you have a successful login, the info will be displayed that says “Successfuly login” and
 
